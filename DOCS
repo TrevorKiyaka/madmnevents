@@ -1,0 +1,15 @@
+1)INSTALLATION
+    - Npx create-react-app madmnevents
+    - npm start
+    - deleted app.css and report web vitals
+    -installed tailwind by using the instructions
+2)NAVBAR
+   - applied global styles in index css then imported google fonts.
+    - utilized react icons from the fa group 
+   -  introduced the hamburger by using the breaking point of hidden md:flex and using react icons.
+
+3)HERO SECTION
+    -we use an mp4 video as the hero section background.it should occupy the full width and height using w and h-full
+
+4)HIGHLIGHTS
+    -this is the previous photos for previous events

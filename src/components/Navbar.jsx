@@ -15,15 +15,15 @@ const Navbar = () => {
         setLogo(!logo);
     }
   return (
-    <div className='flex justify-between items-center h-20 px-4'>
+    <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white'>
       <div>
         <h1 className={logo ? 'hidden' : 'block'}>madMNevents.</h1>
       </div>
       <ul className='hidden md:flex'>
         <li>Home</li>
-        <li>Buy Tickets</li>
-        <li>Merchandise</li>
-        <li>Events</li>
+        <li>Our Venue</li>
+        <li>Upcoming Events</li>
+        <li>Gallery</li>
       </ul>
 
       <div className='hidden md:flex'>
@@ -33,17 +33,17 @@ const Navbar = () => {
 
     {/* hamburger menu */}
     <div onClick={handleNav} className='md:hidden z-10'>
-    {nav ? <AiOutlineClose className='text-black' size={20} /> : <HiOutlineMenuAlt4 size={20} />}
+    {nav ? <AiOutlineClose className='text-black' size={40} /> : <HiOutlineMenuAlt4 size={40} />}
       </div>
 
       {/* mobile menu dropdown */}
-      <div className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
+      <div className={nav ? 'absolute text-black left-0 top-0 w-full h-screen bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
     <ul>
             <h1>MadMNevents</h1>
                 <li className='border-b'>Home</li>
-                <li className='border-b'>Buy Tickets</li>
-                <li className='border-b'>Merchandise</li>
-                <li className='border-b'>Events</li>
+                <li className='border-b'>Our Venue</li>
+                <li className='border-b'>Upcoming Events</li>
+                <li className='border-b'>Gallery</li>
             </ul>
             <div className='flex flex-col'>
                 <button className='my-6'>Search</button>
