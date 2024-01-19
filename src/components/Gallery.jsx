@@ -26,12 +26,12 @@ const Gallery = () => {
   };
 
   return (
+    <div id="gallery" className='max-w-[1240px] mx-auto py-8'>
     <div>
-    <div>
-    <h1 className='text-center'>Gallery</h1>
+    <h1 className='text-center px-4'>Gallery</h1>
       <p className='text-center mt-3'>Experience some of the events</p>
     </div>
-    <div className='max-w-[1240px] mx-auto px-4 py-16 relative flex justify-center itmes-center'>
+    <div className='max-w-[1240px] mx-auto px-4 py-4 relative flex justify-center items-center'>
       {/* <BsArrowLeftSquareFill */}
       <LuArrowLeftCircle
         onClick={prevSlide}
@@ -45,7 +45,7 @@ const Gallery = () => {
       {sliderData.map((item, index) => (
         <div className={index === slide ? 'opacity-100' : 'opacity-0'}>
           {index === slide && (
-            <img className='w-full rounded-md' src={item.url} alt='/' />
+            <img key={index} className='w-full rounded-md' src={item.url} alt='/' />
           )}
         </div>
       ))}

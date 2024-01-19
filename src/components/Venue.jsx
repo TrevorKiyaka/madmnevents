@@ -6,7 +6,8 @@ import Restaurant3 from '../assets/restaurant3.jpg';
 import Restaurant4 from '../assets/restaurant4.jpg';
 const Venue = () => {
   return (
-    <div className='max-w-[1240px0 mx-auto py-16 px-4'>
+    <div id="venue" >
+    <div className='max-w-[1240px] mx-auto py-8 px-4'>
         <h1 className='text-center'>Our Venue</h1>
       <p className='text-center mt-3'>Check out hotspot</p>
       <div className='grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4'>
@@ -16,6 +17,7 @@ const Venue = () => {
             <img className='w-full h-full object-cover' src={Restaurant3} alt="/" />
             <img className='w-full h-full object-cover' src={Restaurant4} alt="/" />
         </div>
+    </div>
     </div>
   )
 }

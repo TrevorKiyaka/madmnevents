@@ -12,4 +12,13 @@
     -we use an mp4 video as the hero section background.it should occupy the full width and height using w and h-full
 
 4)HIGHLIGHTS
-    -this is the previous photos for previous events
+    -this is the previous photos for previous events.
+5)GALLERY 
+    -the photos of the previous events are mapped out.
+6)GIT COMMANDS
+we run git add . : this enables adding all the changes to the local git
+we run git commit -m : commits and adds all messages
+we run git origin master : to update local and remote repo 
+
+7)WEBAPP NAVIGATION
+we run npm install react-router-dom to enable navigation 
