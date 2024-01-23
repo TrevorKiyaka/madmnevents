@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, animateScroll as scroll } from 'react-scroll';
-import cookout from '../assets/cookout.mp4'
+import cookout from '../assets/bestfinal.mp4'
 
 const Hero = () => {
   return (

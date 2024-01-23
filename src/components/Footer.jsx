@@ -87,8 +87,9 @@ const Footer = () => {
               <h1 className='flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left'>
                 <img src={mainlogo} alt='/' className='max-w-[150px] mb-4' />
               </h1>
-              <p>
-                vfje e voeovwoeverver rever oervrevejvsewvv eveo vwdjvw verojvewds
+              <p className='mb-4'>
+              We make celebrations unforgettable.
+               Contact us now to reserve your date and let's create lasting memories together! 🎉✨
               </p>
               <div className='flex items-center gap-3 mt-3'>
                 <FaLocationArrow />

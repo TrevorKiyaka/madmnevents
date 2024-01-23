@@ -18,7 +18,7 @@
 6)GIT COMMANDS
 we run git add . : this enables adding all the changes to the local git
 we run git commit -m : commits and adds all messages
-we run git origin master : to update local and remote repo 
-
+we run git remote origin master : to update local and remote repo 
+we run git push -u origin master : pushes remote and local changes
 7)WEBAPP NAVIGATION
 we run npm install react-router-dom to enable navigation 
