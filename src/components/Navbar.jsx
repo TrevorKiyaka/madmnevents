@@ -48,11 +48,6 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="contact" smooth={true} duration={500}>
-            Our Products
-          </Link>
-        </li>
-        <li>
-          <Link to="contact" smooth={true} duration={500}>
             Contact Us
           </Link>
         </li>
@@ -95,11 +90,6 @@ const Navbar = () => {
               Gallery
             </Link>
           </li>
-          <li className="border-b">
-            <Link to="contact" smooth={true} duration={500} onClick={handleNav} >
-              Our Products
-            </Link>
-            </li>
           <li className="border-b">
             <Link to="contact" smooth={true} duration={500} onClick={handleNav} >
               Contact Us
